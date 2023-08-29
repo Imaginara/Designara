@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "Arial";
+	src: url("arial.ttf")
+	format: (".ttf")
+	font style: normal;
+	font weight: normal;
+}
+
+
+body {
+	background-color: #EEE;
+	font-family: "Arial, Arimo, Helvetica";
+	cursor: default;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	cursor: default;
+}
+
+p {
+	cursor: default;
+	font-family: arial, arimo;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+#container {
+	background-color: white;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor: default;
+}
+
+#header {
+	background-color: #66CCFF;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+	cursor: default;
+}
+
+#nav {
+	width: 180px;
+	float: left;
+	text-align: left;
+	cursor: default;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding= 0;
+}
+
+#nav .selected {
+	font-weight: bold;
+	color: red;
+}
+	
+
+#main {
+	width: 800px;
+	display: flex;
+	float: center;
+	color: black; 
+	text-align: center;
+	cursor: default;
+}
+
+#text {
+	width: 800px;
+	float: right;
+	display: flex;
+	cursor: default;
+	max-height: 999999 px;
+	font-size-adjust: 0.58;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;	
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+	cursor: default;
+}
